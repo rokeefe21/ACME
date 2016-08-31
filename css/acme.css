@@ -1,0 +1,33 @@
+header {background: grey;
+  background-color: #c4c4c4;
+
+}
+body {
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 80%;
+}
+h1{
+  font-size: 32px;
+  font-family: lucida, 'Lucida Grande', serif;
+}
+p {
+
+}
+main {
+  margin-bottom: 30px;
+  border-bottom: 1px solid blue;
+  padding-bottom: 10px;
+}
+
+
+footer {
+  height: 100%;
+  margin top: 20px;
+  padding top: 50px
+  text-align: center;
+  width: 80%;
+}
+ul {float: right;
+}
