@@ -1,12 +1,13 @@
-header {background: grey;
+header {
   background-color: #c4c4c4;
-
 }
+
 body {
 	height: 100%;
 	margin: 0;
 	text-align: center;
 	width: 80%;
+  background-image: url("background.png");
 }
 h1{
   font-size: 32px;
@@ -19,6 +20,7 @@ main {
   margin-bottom: 30px;
   border-bottom: 1px solid blue;
   padding-bottom: 10px;
+
 }
 
 
