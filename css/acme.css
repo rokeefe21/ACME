@@ -6,9 +6,7 @@ a {
   cursor: pointer;
   text-shadow: 2px 2px gray;
   margin: 0px;
-
 }
-
 header {
   margin: 0px;
   box-shadow: 0 0 1px black;
@@ -24,7 +22,6 @@ header {
 nav{
   float: right;
 }
-
 body {
   font-family: "Lucida Grande";
   margin: 0px;
@@ -53,7 +50,6 @@ main {
   font-family: "Lucida Grande";
   padding: 5px 1cm 1cm 1cm;
   margin-top: 50px;
-
 }
 footer {
   border-top: 1px solid rgb(209, 206, 207);
@@ -64,5 +60,4 @@ footer {
   font-size: 12px;
   margin-top: 50px;
 }
-
 </style>
