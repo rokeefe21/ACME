@@ -4,46 +4,58 @@
   <link rel="stylesheet" href="css/acme.css">
   <meta charset="utf-8">
   <title>ACME Corp</title>
+  <style id="style-1-cropbar-clipper">
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+  </style>
 </head>
 
 <body>
   <header>
-    <img src="acme-corp.jpg" alt="Acme Corp Logo" width="330" height="90">
-  <nav>
-    <a name="Products">Products</a>
-    <button type="Sign Up" name="SignUp">
-      <a href="signup.html">Sign Up</a>
-    </button>
-    <ul>
-      <li>
-        <a href="product.html">Products</a>
-      </li>
-    </ul>
-  </nav>
-</header>
+    <img src="acme-corp.jpg" alt="Acme Corp Logo" height="70">
+    <nav>
+      <ul>
+        <li>
+          <a href="product.html">Products</a>
+        </li>
+        <li>
+          <button type="button" name="Sign Up" class="Sign_Up">
+            <a href="signup.html">Sign Up</a>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
   <main>
-    <h1>Welcome to ACME Corp!</h1>
-    <p>
+    <div class="welcome">
+      <h1>Welcome to ACME Corp!</h1>
+      <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+      </p>
+      <p>
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+      deserunt mollit anim id est laborum.
+      </p>
+    </div>
+  </main>
 
-    </p>
-    <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-    est laborum.
-
-  </p>
-  <p></p>
-  <p>
-  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-   deserunt mollit anim id est laborum.
- </p>
-</main>
-
-    <footer> Copyright, 2016
+  <footer> Copyright, 2016
     </footer>
   </body>
 </html>
